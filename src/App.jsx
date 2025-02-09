@@ -2,7 +2,7 @@ import "../src/styles/App.css";
 import PrincipalPage from "./views/principal-page";
 import Proyects from "./views/Proyects";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Studies from "./views/Studies";
 import Experience from "./views/Experience";
 import TechStack from "./views/TechStack";
