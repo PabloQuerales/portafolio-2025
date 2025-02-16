@@ -1,0 +1,27 @@
+.principal {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 90vh;
+}
+.principal-img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.principal-p {
+	font-size: 1.3rem;
+	margin: 0 120px;
+	text-align: center;
+}
+.principal-button {
+	margin: 1rem;
+}
+.link {
+	color: inherit;
+}
+.link:hover {
+	text-decoration: inherit;
+}

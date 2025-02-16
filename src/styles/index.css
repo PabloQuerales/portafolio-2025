@@ -1,6 +1,52 @@
-body {
-	background: #bdc3c7; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+:root {
+	--bg-color: #121212;
+	--primary-color: #1db954;
+	--text-color: #ffffff;
+	--secondary-text: #a0a0a0;
+	--font-family: "Inter", sans-serif;
+}
+#root {
 	height: 100vh;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: var(--font-family);
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+h1,
+h2,
+h3 {
+	color: var(--primary-color);
+}
+
+p {
+	color: var(--secondary-text);
+}
+
+button {
+	background-color: var(--primary-color);
+	color: var(--text-color);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+button:hover {
+	background-color: #17a347; /* Un tono más oscuro del verde para el hover */
+}
+
+a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
